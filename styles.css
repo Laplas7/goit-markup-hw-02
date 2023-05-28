@@ -17,6 +17,7 @@
  }
 
 body{
+    background-color: var(--background-color-white);
     Font-family: Roboto, sans-serif;
     Font-style: 500;
     Font-size: 14px;
@@ -95,10 +96,6 @@ body{
 
                           /*--------------- Index Header--------------------- */
 
- .head{
-    background-color: var(--background-color-white);
- }
- 
  
  
  

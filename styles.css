@@ -1,0 +1,266 @@
+:root{
+              /* index */
+    --primari-color : #212121;
+    --second-color : #757575;
+    --decoration-color : #2196F3;
+    --background-color-white: #ffffff ;
+    --background-color-dark: #2F303A;
+            /* Portfolio */
+    --color-button-portfolio: #F5F4FA;
+}
+                            /* --------------fonts -------------------*/
+.head a{
+    font-family: 'Raleway', sans-serif;
+    font-style: 700;
+    font-size: 26px;
+    line-height: 1.19;
+ }
+
+body{
+    Font-family: Roboto, sans-serif;
+    Font-style: 500;
+    Font-size: 14px;
+    Line-height: 1.14;
+ }
+.list-desk p{
+    Font-family: Roboto, sans-serif;
+    Font-style: Regular;
+    Font-size: 14px;
+    Line-height: 1.71;
+}
+
+
+.hero-name h1{
+    Font-family: Roboto, sans-serif;
+    Font-style: 900;
+    Font-size: 44px;
+    Line-height: 1.36;
+}
+
+ h3 h2{
+    Font-family: Roboto, sans-serif;
+    Font-style: 700;
+    Font-size: 14px;
+    Line-height: 1.14;
+ }
+
+
+.our-comand-list h3{
+    Font-family: Roboto, sans-serif;
+    Font-style: 500;
+    Font-size: 14px;
+    Line-height: 1.14;
+}
+ 
+.our-comand-list p{
+    Font-family: Roboto, sans-serif;
+    Font-style: 400;
+    Font-size: 16px;
+    Line-height: 1.18;
+}
+
+
+ .footter-link{
+    font-family : 'Raleway', sans-serif;
+    Font-style : 700;
+    Font-size : 26px;
+    Line-height : 1.19;
+}
+
+                        /*--------------- font portfolio -----------------*/
+.list-btn button{
+    Font-family: Roboto, sans-serif;
+     Font-style: 500;
+    Font-size: 14px;
+    Line-height: 1.14;
+ }
+ 
+ .project-list h1{
+    Font-family: Roboto, sans-serif;
+    Font-style: 700;
+    Font-size: 14px;
+    Line-height: 1.14;
+ }
+
+ .project-list p{
+    Font-family: Roboto, sans-serif;
+    Font-style: 400;
+    Font-size: 16px;
+    Line-height: 1.18;
+ }
+
+
+
+
+
+                          /*--------------- Index Header--------------------- */
+
+ .head{
+    background-color: var(--background-color-white);
+ }
+ 
+ 
+ 
+ 
+.logo{
+    color: #2196F3;
+    
+}
+
+.logo-link{
+    text-decoration: none;
+    color: #000000;
+}
+
+.site-nav a{
+    color: var(--primari-color);
+    text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a:focus{
+    color : #2196F3;
+
+} 
+
+li{
+list-style: none;
+}
+
+.contacts a:hover,
+.contacts a:focus{
+color: var(--decoration-color)
+}
+
+.contacts a{
+    color: var(--second-color);
+    text-decoration: none;
+}
+
+                     /* ---------------------Index Main ----------------------*/
+
+.hero{
+background-color: var(--background-color-dark);
+
+}
+
+.hero-name{
+    color: #ffffff;
+}
+
+.hero-btn{
+    background-color: var(--decoration-color);
+    color: #ffffff;
+}
+
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: #188CE8;
+}
+
+                        /*-------------------------- List Desk --------------------*/
+.list-desk{
+    background-color: var(--background-color-white);
+}
+
+
+.list-desk h3{
+color: var(--primari-color);
+}
+
+.list-desk p{
+color: var(--second-color);
+}
+                   /*------------------------- Img Desk------------------------------------------ */
+
+h2{
+    color: var(--primari-color);
+}       
+
+.img-desk{
+    background-color: var(--background-color-white);
+}
+
+
+
+
+                                /*---------------------- our-comand list---------------------------- */
+
+.our-comand-list{
+   background-color: #F5F4FA;
+}
+
+.our-comand-img{
+    background-color: var(--background-color-white);
+}
+
+
+
+                               /* --------------------------Index Footer------------------------------ */
+
+
+.footter-link{
+    background-color: var(--background-color-dark);
+}
+
+.address-footer{
+    color: #ffffff;
+}
+
+.logo-link-footer{
+    text-decoration: none;
+    color: #ffffff;
+   
+}
+
+.contacts-footer a:hover,
+.contacts-footer a:focus{
+color: var(--decoration-color)
+}
+
+
+.contacts-footer a{
+    color: var(--second-color);
+    text-decoration: none;
+    filter: opacity(60%);
+}
+
+
+
+                          /* !!!!!!!!!!!!!!!!!!!!!!!Portfolio !!!!!!!!!!!!!!!!!!!!*/
+.list-btn button{
+    background-color: var(--color-button-portfolio);
+}
+
+.list-btn{
+    background-color: var(--background-color-white);
+}
+
+.list-btn button:hover,
+.list-btn button:focus{
+    background-color: var(--decoration-color);
+    color:#ffffff;
+}                    
+
+                               /* ----------------project-list -------------------*/
+
+
+
+.project-list h1{
+color: var(--primari-color);
+
+}
+
+.project-list li{
+    background-color: var(--background-color-white);
+}
+
+.project-list p{
+color: var(--second-color);
+
+}
+
+.project-list a{
+    text-decoration: none;
+}
+

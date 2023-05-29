@@ -149,6 +149,10 @@ color: var(--decoration-color)
     Line-height: 1.14;
 }
 
+.list-btn a:visited{
+    background-color: var(--decoration-color);
+}
+
 .adress-contc {
     Font-family: Roboto, sans-serif;
     Font-style: 400;
@@ -177,6 +181,13 @@ text-align: center;
     color: #ffffff;
    
 }
+.img-desk h2{
+    text-align: center;
+}
+
+.our-comand-list h2{
+    text-align: center;
+}
 
 .hero-btn:hover,
 .hero-btn:focus{
@@ -186,6 +197,13 @@ text-align: center;
                         /*-------------------------- List Desk --------------------*/
 .list-desk{
     background-color: var(--background-color-white);
+}
+
+.persona-list p{
+text-align: center;
+}
+.persona-list h3{
+text-align: center;
 }
 
 
@@ -277,7 +295,7 @@ color: #ffffff;
 
 .project-list h1{
 color: var(--primari-color);
-
+text-align: center;
 }
 
 .project-list li{
@@ -286,7 +304,7 @@ color: var(--primari-color);
 
 .project-list p{
 color: var(--second-color);
-
+text-align: center;
 }
 
 .project-list a{

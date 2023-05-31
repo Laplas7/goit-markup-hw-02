@@ -16,7 +16,7 @@
     line-height: 1.19;
  }
 
- .mein-list p{
+ .mein-list-p{
      font-weight: 400;
      font-size: 14px;
     line-height: 1.71;
@@ -42,7 +42,7 @@
     line-height: 1.16;
 }
 
-.our-com-list p{
+.our-comand-img p{
     font-weight: 400;
      font-size: 14px;
     line-height: 1.71;
@@ -52,8 +52,8 @@
  .mein-list{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
+    font-size: 14px;
+    line-height: 1.14;
  }
 
 body{
@@ -68,7 +68,6 @@ body{
 }
 
 .progect-oth{
-    font-size: Roboto;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -76,7 +75,7 @@ body{
     color:#212121;
 }
 
-.progect-oth p{
+.progect-oth-p{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
@@ -125,12 +124,8 @@ body{
     line-height: 1.14;
     
  }
+
  
- .project-list h2{
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
- }
 
  .project-list p{
     font-weight: 400;
@@ -199,6 +194,7 @@ color: var(--decoration-color)
 
 .adress-contc {
     font-weight: 400;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
 }
@@ -259,7 +255,7 @@ color: var(--second-color);
 }
                    /*------------------------- Img Desk------------------------------------------ */
 
-h2{
+.our-work{
     color: var(--primari-color);
 }       
 
@@ -304,7 +300,7 @@ h2{
 
 .contacts-footer a:hover,
 .contacts-footer a:focus{
-color: var(--decoration-color)
+color: white;
 }
 
 

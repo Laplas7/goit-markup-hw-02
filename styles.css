@@ -29,12 +29,6 @@
 }
 
 
-.our-com-list{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    color: #212121;
-}
 
 .our-comand{
     font-weight: 700;
@@ -42,12 +36,7 @@
     line-height: 1.16;
 }
 
-.our-comand-img p{
-    font-weight: 400;
-     font-size: 14px;
-    line-height: 1.71;
-    color:#757575;
-}
+
 
  .mein-list{
     font-weight: 700;
@@ -59,7 +48,6 @@
 body{
     background-color: var(--background-color-white);
     font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.1em;
  }
 .list-desk p{
     font-weight: 400;
@@ -99,14 +87,16 @@ body{
 
 .our-comand-list h3{
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
+    font-size: 16px;
+    line-height: 1.17;
+    color: #212121;
 }
  
 .our-comand-list p{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
+    color: #757575;
 }
 
 
@@ -275,6 +265,8 @@ color: var(--second-color);
 .our-comand-list{
    background-color: #F5F4FA;
 }
+
+
 
 .our-comand-img{
     background-color: var(--background-color-white);
